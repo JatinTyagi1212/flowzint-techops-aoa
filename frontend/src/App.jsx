@@ -3,7 +3,7 @@ import { Terminal, Send, Activity, ShieldAlert, CheckCircle, Search, Cpu } from 
 import ReactMarkdown from 'react-markdown';
 
 // Constants
-const API_URL = 'https://flowzint-techops-aoa.onrender.com';
+const API_URL = 'https://flowzint-techops-aoa.onrender.com/api/v1/agent/triage';
 
 function App() {
   const [query, setQuery] = useState('');
